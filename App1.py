@@ -1,4 +1,3 @@
-from ast import main
 import os
 from pkgutil import get_data
 import streamlit as st
@@ -475,6 +474,3 @@ if st.session_state.get("authenticated", False):
 
 else:
     st.warning("⚠ Please log in to access the application.")
-
-if __name__ == "main":
-    main()
